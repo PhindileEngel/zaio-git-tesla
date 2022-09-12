@@ -19,6 +19,7 @@ p{
     font-size: 14px;
     font-weight: 400;
     padding: 6px 24px 16px 24px;
+    color:#171A20
 }
 
 .banner-wrap {
@@ -44,7 +45,7 @@ cursor: pointer;
 }
 
 .nav-item:hover {
-    background-color: gray;
+    background-color: #ebe6e6cc;
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
     border-top-left-radius: 9999px;
@@ -54,19 +55,26 @@ cursor: pointer;
 .logo {
     height: 24px;
     width: 120px;
+    cursor: pointer;
 }
 
 main {
     text-align: center;
     height: calc (100vh - 56px);
-    padding-top: 120px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;  
 }
 
+main a  {
+    color:#171A20;
+    font-weight: 400;
+}
+
+
 .butoons {
-    padding-top: 340px;
+    padding-top: 420px;
 }
  button {
     margin: 0;
